@@ -2,6 +2,10 @@
 
 =over
 
+=item 0.02  Mon Dec  8 22:08:00 2003
+                                                                                
+Replaced Data::Grove with XML::Parser::PerlSAX to pull in libxml.
+                                                                                
 =item 0.01  Mon Dec  8 21:24:40 2003
 
 original version; created by h2xs 1.23 with options -X Bundle::Phalanx

@@ -1,6 +1,6 @@
 package Bundle::Phalanx;
 
-$Bundle::Phalanx::VERSION = '0.01';
+$Bundle::Phalanx::VERSION = '0.02';
 
 1;
 
@@ -149,7 +149,7 @@ IO::Tty
 
 Apache::Requst
 
-Data::Grove
+XML::Parser::PerlSAX - libxml
 
 Mac::Carbon
 

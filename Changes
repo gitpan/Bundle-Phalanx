@@ -2,6 +2,14 @@
 
 =over
 
+=item 0.03  Wed Dec 17 11:02:00 2003
+                                                                                                     
+Reordered many of the installations so that prerequisite modules are installed befor the modules thatdepend on them.
+
+Added Digest::base and Digest::MD5.  These modules are not part of the "Phalanx 100", but are required by many of the modules on the list.
+
+Implemented some changes sent in a patch by Jim Cromie.  The MySQL and Perl clarified a question on MySQL installs as well.
+
 =item 0.02  Mon Dec  8 22:08:00 2003
                                                                                 
 Replaced Data::Grove with XML::Parser::PerlSAX to pull in libxml.

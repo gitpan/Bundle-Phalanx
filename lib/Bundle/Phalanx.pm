@@ -1,6 +1,6 @@
 package Bundle::Phalanx;
 
-$Bundle::Phalanx::VERSION = '0.02';
+$Bundle::Phalanx::VERSION = '0.03';
 
 1;
 
@@ -9,7 +9,7 @@ __END__
 
 =head1 NAME
                                                                                 
-Bundle::Phalanx - A bundle to install all modules used for Phalanx project. 
+Bundle::Phalanx - A bundle to install modules on the Phalanx 100 module list. 
                                                                                 
 =head1 SYNOPSIS
 
@@ -17,23 +17,41 @@ C<perl -MCPAN -e 'install "Bundle::Phalanx"'>
 
 =head1 CONTENTS
 
-CPANPLUS
+Digest::base  - not actually part of the Phalanx 100, but required by many modules
+
+Digest::MD5 - not actually part of the Phalanx 100, but required by many modules
 
 Compress::Zlib
 
-DBI
+YAML
 
-DBD::mysql
+Archive::Tar
+
+Module::Build
+
+Mime::Base64
+
+URI
+
+HTML::Tagset
 
 HTML::Parser
 
 LWP
 
+Term::ReadLine::Perl
+
+Test::Reporter
+
+CPANPLUS
+
+DBI
+
+DBD::mysql
+
 Mail::Mailer
 
-MIME::Base64
-
-URI
+Bit::Vector
 
 Date::Calc
 
@@ -45,7 +63,7 @@ Digest::SHA1
 
 GD
 
-HTML::Tagset
+Net::SSLeay
 
 IO::Socket::SSL
 
@@ -61,17 +79,29 @@ Net::DNS
 
 Net::Telnet
 
-Net::SSLeay
-
 Parse::RecDescent
 
 Spreadsheet::WriteExcel
 
-Template
-
-Term::ReadLine::Perl
-
 XML::Parser
+
+AppConfig
+
+GD::Text
+
+GD::Graph
+
+Image::Info
+
+Image::Size
+
+XML::Parser::PerlSAX - libxml
+
+XML::DOM
+
+XML::XPath
+
+Template
 
 XML::Simple
 
@@ -79,23 +109,27 @@ Apache::DBI
 
 Apache::Session
 
-AppConfig
-
-Archive::Tar
-
 Archive::Zip
+
+SOAP::Lite
+
+XML::Writer
 
 Bio::Perl
 
-Bit::Vector
+Error
 
 Cache::Cache
+
+HTML::Template
 
 CGI::Application
 
 CGI::Kwiki
 
 CGI::Session
+
+List::Util
 
 Class::DBI
 
@@ -117,6 +151,8 @@ Data::ShowTable
 
 Date::Manip
 
+Text::CSV_XS
+
 DBD::CSV
 
 DBD::ODBC
@@ -125,31 +161,19 @@ DBD::Pg
 
 DBIx::SearchBuilder
 
-Error
+IO::Tty
 
 Expect
 
-GD::Graph
-
-GD::Text
+Params::Validate
 
 HTML::Mason
 
-HTML::Template
-
 HTML::Tree
-
-Image::Info
-
-Image::Size
 
 Inline
 
-IO::Tty
-
-Apache::Requst
-
-XML::Parser::PerlSAX - libxml
+Apache::Request
 
 Mac::Carbon
 
@@ -160,8 +184,6 @@ Mail::Box
 Mail::Sendmail
 
 MD5
-
-Module::Build
 
 MP3::Info
 
@@ -174,8 +196,6 @@ Net::SNMP
 Net:SSH::Perl
 
 PAR
-
-Params::Validate
 
 PDF::API2
 
@@ -191,19 +211,11 @@ POE
 
 Regexp::Common
 
-List::Util
-
-SOAP::Lite
-
 SPOPS
 
 Spreadsheet::ParseExcel
 
 Term::ReadKey
-
-Test::Reporter
-
-Text::CSV_XS
 
 Text::Iconv
 
@@ -215,17 +227,13 @@ Time::Zone
 
 WWW::Mechanize
 
-XML::DOM
+XML::NamespaceSupport - not part of the "Phalanx 100" but required for XML::SAX and XML::LibXML
 
-XML::LibXML
 
 XML::SAX
 
-XML::Writer
+XML::LibXML
 
-XML::XPath
-
-YAML
 
 =head1 DESCRIPTION
 
@@ -240,7 +248,9 @@ L<http://qa.perl.org/phalanx>.
 =item *
 
 Make the list a bit more intelligently, so that prerequisite modules are 
-installed prior to the modules that depend on them.
+installed prior to the modules that depend on them.  This is mostly done, but I
+just trying to decide whether to install ALL the the required modules, whether they
+are part of the "Phalanx 100" or not.
 
 =item *
 

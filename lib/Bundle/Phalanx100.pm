@@ -1,6 +1,6 @@
 package Bundle::Phalanx100;
 
-$Bundle::Phalanx100::VERSION = '0.06_01';
+$Bundle::Phalanx100::VERSION = '0.06_02';
 
 1;
 
@@ -17,36 +17,71 @@ C<perl -MCPAN -e 'install "Bundle::Phalanx100"'>
 
 =head1 CONTENTS
 
+Test::Harness
 
 Test::Builder
 
 Test::Builder::Tester
 
-Test::Harness
-
 Sub::Uplevel
 
 Test::Exception
 
+Test::Tester
+
 Test::NoWarnings
 
+Test::Tester
+
+Pod::Escapes
+
+Pod::Simple
+
 Test::Pod
+
+YAML
+
+Cwd
+
+Archive::Tar
+
+Module::Build
+
+Devel::Symdump
 
 Pod::Coverage - needed for Test::Pod::Coverage
 
 Test::Pod::Coverage
 
-CPANPLUS
+Compress::Zlib
 
-DBD::mysql
+IO::Zlib
 
-DBI
+Archive::Zip
 
-GD
+Archive::Tar
+
+Storable
+
+Digest::MD5
+
+URI
+
+HTML::Tagset
 
 HTML::Parser
 
 LWP
+
+IPC::Run
+
+CPANPLUS
+
+DBI
+
+DBD::mysql
+
+GD
 
 MIME::Base64
 
@@ -58,13 +93,7 @@ XML::Parser
 
 Apache::ASP
 
-Archive::Tar
-
-Archive::Zip
-
 CGI
-
-Compress::Zlib
 
 Date::Manip
 
@@ -104,7 +133,7 @@ AppConfig
 
 App::Info
 
-Authen::Pam
+Authen::PAM
 
 Authen::SASL
 
@@ -196,10 +225,6 @@ IO::String
 
 IO::Stringy
 
-IO::Zlib
-
-IPC::Run
-
 XML::SAX2Perl
 
 Mail::Audit
@@ -252,7 +277,7 @@ POE
 
 SNMP
 
-SOAP::List
+SOAP::Lite
 
 Spreadsheet::ParseExcel
 
@@ -272,11 +297,11 @@ Text::Iconv
 
 Date::Parse
 
-Time::TimeZone
+Time::Timezone
 
 Unicode::String
 
-UNIX::Syslog
+Unix::Syslog
 
 Verilog::Parser
 

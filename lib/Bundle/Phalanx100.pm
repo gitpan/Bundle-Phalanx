@@ -1,6 +1,6 @@
 package Bundle::Phalanx100;
 
-$Bundle::Phalanx100::VERSION = '0.05';
+$Bundle::Phalanx100::VERSION = '0.06_01';
 
 1;
 
@@ -17,129 +17,118 @@ C<perl -MCPAN -e 'install "Bundle::Phalanx100"'>
 
 =head1 CONTENTS
 
-Digest::base  - not actually part of the Phalanx 100, but required by many modules
 
-Digest::MD5 - not actually part of the Phalanx 100, but required by many modules
+Test::Builder
 
-Compress::Zlib
+Test::Builder::Tester
 
-YAML
+Test::Harness
 
-Archive::Tar
+Sub::Uplevel
 
-Module::Build
+Test::Exception
 
-Mime::Base64
+Test::NoWarnings
 
-URI
+Test::Pod
 
-HTML::Tagset
+Pod::Coverage - needed for Test::Pod::Coverage
+
+Test::Pod::Coverage
+
+CPANPLUS
+
+DBD::mysql
+
+DBI
+
+GD
 
 HTML::Parser
 
 LWP
 
-Term::ReadLine::Perl
-
-Test::Reporter
-
-CPANPLUS
-
-DBI
-
-DBD::mysql
-
-Mail::Mailer
-
-Bit::Vector
-
-Date::Calc
-
-DBD::Oracle
-
-Digest::HMAC
-
-Digest::SHA1
-
-GD
+MIME::Base64
 
 Net::SSLeay
 
-IO::Socket::SSL
+Net::LDAP
 
-IO::Stringy
+XML::Parser 
 
-Mail::SpamAssassin
+Apache::ASP
 
-MIME::Lite
+Archive::Tar
 
-MIME::Tools
+Archive::Zip
+
+CGI
+
+Compress::Zlib
+
+Date::Manip
+
+DBD::Oracle
+
+DBD::Pg
+
+Digest::SHA1
+
+Digest::HMAC
+
+Digest::MD5
+
+HTML::Tagset
+
+HTML::Template
+
+Net::Cmd
+
+Mail::Mailer
+
+MIME::Body
 
 Net::DNS
 
-Net::Telnet
+Time::HiRes
 
-Parse::RecDescent
-
-Spreadsheet::WriteExcel
-
-XML::Parser
-
-AppConfig
-
-GD::Text
-
-GD::Graph
-
-Image::Info
-
-Image::Size
-
-XML::Parser::PerlSAX - libxml
-
-XML::DOM
-
-XML::XPath
-
-Template
-
-XML::Simple
+URI
 
 Apache::DBI
 
 Apache::Session
 
-Archive::Zip
+Apache::Test
 
-SOAP::Lite
+AppConfig
 
-XML::Writer
+App::Info
 
-Bio::Perl
+Authen::Pam
 
-Error
+Authen::SASL
 
-Cache::Cache
+BerkeleyDB
 
-HTML::Template
+Bit::Vector
 
-CGI::Application
+Carp::Clan
 
-CGI::Kwiki
-
-CGI::Session
-
-List::Util
+Chart::Bars
 
 Class::DBI
 
-Class::Date
+Compress::Zlib::Perl
 
 Config::IniFiles
 
 Convert::ASN1
 
-Crypt::Blowfish
+Convert::TNEF
+
+Convert::UUlib
+
+CPAN
 
 Crypt::CBC
 
@@ -147,93 +136,165 @@ Crypt::DES
 
 Crypt::SSLeay
 
-Data::ShowTable
+Data::Dumper
 
-Date::Manip
+Date::Calc
 
-Text::CSV_XS
+DateTime
 
-DBD::CSV
+DBD::DB2
 
 DBD::ODBC
 
-DBD::Pg
+DBD::SQLite
 
-DBIx::SearchBuilder
+DBD::Sybase
 
-IO::Tty
+Device::SerialPort
+
+Digest::SHA
+
+Encode
+
+Event
+
+Excel::Template
 
 Expect
 
-Params::Validate
+ExtUtils::MakeMaker
+
+File::Scan
+
+File::Spec
+
+File::Tail
+
+File::Temp
+
+GD::Graph
+
+GD::Text
+
+Getopt::Long
 
 HTML::Mason
 
-HTML::Tree
+Image::Size
+
+IMAP::Admin
 
 Inline
 
-Apache::Request
+IO
 
-Mac::Carbon
+IO::All
 
-Mac::Glue
+IO::Socket::SSL
 
-Mail::Box
+IO::String
+
+IO::Stringy
+
+IO::Zlib
+
+IPC::Run
+
+XML::SAX2Perl
+
+Mail::Audit
+
+Mail::ClamAV
 
 Mail::Sendmail
 
+Math::Pari
+
 MD5
+
+MIME::Lite
+
+Module::Build
 
 MP3::Info
 
-Msql
+DBD::mSQL
 
 Net::Daemon
+
+Net::FTP::Common
+
+Net::Ping
+
+Net::Server
 
 Net::SNMP
 
 Net::SSH::Perl
 
-PAR
+Net::Telnet
 
-PDF::API2
+OLE::Storage_Lite
 
-PDL
+Params::Validate
 
-Net::LDAP
+Parse::RecDescent
+
+Cwd
 
 Image::Magick
 
-Pod::Simple
+RPC::PlServer
+
+Pod::Parser
 
 POE
 
-Regexp::Common
+SNMP
 
-SPOPS
+SOAP::List
 
 Spreadsheet::ParseExcel
 
+Spreadsheet::WriteExcel
+
+Spreadsheet::WriteExcelXML
+
+Storable
+
+Template
+
 Term::ReadKey
+
+Term::ReadLine::Perl
 
 Text::Iconv
 
-Text::Template
+Date::Parse
 
-Time::ParseDate
+Time::TimeZone
 
-Time::Zone
+Unicode::String
+
+UNIX::Syslog
+
+Verilog::Parser
 
 WWW::Mechanize
 
-XML::NamespaceSupport - not part of the "Phalanx 100" but required for XML::SAX and XML::LibXML
+XML::DOM
 
-
-XML::SAX
+XML::Generator
 
 XML::LibXML
 
+XML::NamespaceSupport
+
+XML::SAX
+
+XML::Simple
+
+XML::Writer
 
 =head1 DESCRIPTION
 

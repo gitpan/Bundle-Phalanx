@@ -1,6 +1,6 @@
 package Bundle::Phalanx100;
 
-$Bundle::Phalanx100::VERSION = '0.06_02';
+$Bundle::Phalanx100::VERSION = '0.07';
 
 1;
 
@@ -18,6 +18,8 @@ C<perl -MCPAN -e 'install "Bundle::Phalanx100"'>
 =head1 CONTENTS
 
 Test::Harness
+
+Test::Reporter
 
 Test::Builder
 
@@ -105,8 +107,6 @@ Digest::SHA1
 
 Digest::HMAC
 
-Digest::MD5
-
 HTML::Tagset
 
 HTML::Template
@@ -120,8 +120,6 @@ MIME::Body
 Net::DNS
 
 Time::HiRes
-
-URI
 
 Apache::DBI
 
@@ -213,9 +211,13 @@ Image::Size
 
 IMAP::Admin
 
+Parse::RecDescent
+
 Inline
 
 IO
+
+Spiffy
 
 IO::All
 
@@ -239,11 +241,7 @@ MD5
 
 MIME::Lite
 
-Module::Build
-
 MP3::Info
-
-DBD::mSQL
 
 Net::Daemon
 
@@ -262,10 +260,6 @@ Net::Telnet
 OLE::Storage_Lite
 
 Params::Validate
-
-Parse::RecDescent
-
-Cwd
 
 Image::Magick
 
@@ -348,7 +342,7 @@ install a DBD module for a database not installed on the system.
 
 =head1 BUGS
 
-Currently, there are no known bug.  If you find any, patches are appreciated!
+Currently, there are no known bugs.  If you find any, patches are appreciated!
  
 =head1 AUTHOR
 
@@ -360,7 +354,7 @@ L<CPAN>, L<http://qa.perl.org/phalanx>
 
 =head1 COPYRIGHT
 
-Copyright (c) 2003, Steve Peters.  All Rights Reserved.
+Copyright (c) 2003-2005, Steve Peters.  All Rights Reserved.
 This module is free software.  It may be used, redistributed
 and/or modified under the same terms as Perl itself.
 

@@ -2,6 +2,10 @@
 
 =over
 
+=item 0.05  Fri Dec 26 23:06:00 2003
+                                                                                
+Fixed a stupid (on my part at least) test bug.
+                                                                                
 =item 0.04  Fri Dec 26 23:06:00 2003
 
 Fixed problem with Net::SSH::Perl.

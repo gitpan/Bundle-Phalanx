@@ -1,6 +1,6 @@
 package Bundle::Phalanx100;
 
-$Bundle::Phalanx100::VERSION = '0.04';
+$Bundle::Phalanx100::VERSION = '0.05';
 
 1;
 

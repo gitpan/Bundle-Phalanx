@@ -2,8 +2,14 @@
 
 =over
 
+=item 0.04  Fri Dec 26 23:06:00 2003
+
+Fixed problem with Net::SSH::Perl.
+
+Changed actual module name from Bundle::Phalanx to Bundle::Phalanx100 (suggested by Jim Cromie).
+
 =item 0.03  Wed Dec 17 11:02:00 2003
-                                                                                                     
+
 Reordered many of the installations so that prerequisite modules are installed befor the modules thatdepend on them.
 
 Added Digest::base and Digest::MD5.  These modules are not part of the "Phalanx 100", but are required by many of the modules on the list.

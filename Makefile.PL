@@ -4,9 +4,9 @@ use ExtUtils::MakeMaker;
 # the contents of the Makefile that is written.
 WriteMakefile(
     NAME              => 'Bundle::Phalanx',
-    VERSION_FROM      => 'lib/Bundle/Phalanx.pm', # finds $VERSION
+    VERSION_FROM      => 'lib/Bundle/Phalanx100.pm', # finds $VERSION
     PREREQ_PM         => {}  ,
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
-      (ABSTRACT_FROM  => 'lib/Bundle/Phalanx.pm', # retrieve abstract from module
+      (ABSTRACT  => 'A bundle to install modules on the Phalanx 100 module list..', 
        AUTHOR         => 'Steve Peters <steve@fisharerojo.org>') : ()),
 );

@@ -1,6 +1,6 @@
-package Bundle::Phalanx;
+package Bundle::Phalanx100;
 
-$Bundle::Phalanx::VERSION = '0.03';
+$Bundle::Phalanx100::VERSION = '0.04';
 
 1;
 
@@ -9,11 +9,11 @@ __END__
 
 =head1 NAME
                                                                                 
-Bundle::Phalanx - A bundle to install modules on the Phalanx 100 module list. 
+Bundle::Phalanx100 - A bundle to install modules on the Phalanx 100 module list. 
                                                                                 
 =head1 SYNOPSIS
 
-C<perl -MCPAN -e 'install "Bundle::Phalanx"'>
+C<perl -MCPAN -e 'install "Bundle::Phalanx100"'>
 
 =head1 CONTENTS
 
@@ -193,7 +193,7 @@ Net::Daemon
 
 Net::SNMP
 
-Net:SSH::Perl
+Net::SSH::Perl
 
 PAR
 

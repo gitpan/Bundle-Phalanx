@@ -1,0 +1,11 @@
+=head1 Revision history for Perl extension Bundle::Phalanx.
+
+=over
+
+=item 0.01  Mon Dec  8 21:24:40 2003
+
+original version; created by h2xs 1.23 with options -X Bundle::Phalanx
+
+=back
+
+=cut

@@ -1,0 +1,24 @@
+Bundle-Phalanx version 0.01
+===========================
+
+This bundle will install the "Phalanx 100" modules as listed on the Phalanx
+project website at http://qa.perl.org/phalanx/.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl -MCPAN -e 'install "Bundle::Phalanx"'
+
+DEPENDENCIES
+
+There are no real dependencies to this module.  It will, however, attempt to 
+install over 100 additional Perl modules
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2003 by Steve Peters
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.8.1 or,
+at your option, any later version of Perl 5 you may have available.
